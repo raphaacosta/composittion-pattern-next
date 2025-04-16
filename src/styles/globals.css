@@ -3,13 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #010100;
-  --light-ado: #00688f
+  --light-ado: #00688f;
+  --dark-ado: #013a4f;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-ado: var(--light-ado);
+  --color-dark-ado: var(--dark-ado);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
